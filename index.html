@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Eksplore Pantai Bantul</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-dark">
+      <div class="container">
+        <nav class="navbar navbar-dark navbar-expand-lg py-0">
+          <a href="index.html" class="navbar-brand">
+            <h1 class="text-white fw-bold d-block">
+              Pantai<span h2 class="text-secondary">Bantul</span>
+            </h1>
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler me-0"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse bg-transparent"
+            id="navbarCollapse"
+          >
+            <div class="navbar-nav ms-auto mx-xl-auto p-0">
+              <a
+                href="index.html"
+                class="nav-item nav-link active text-secondary"
+                >Beranda</a
+              >
+              <a href="#tentang" class="nav-item nav-link">Tentang</a>
+              <a href="#peta" class="nav-item nav-link">Peta Wisata</a>
+              <a href="#kontak" class="nav-item nav-link">Kontak</a>
+            </div>
+          </div>
+          <div class="d-none d-xl-flex flex-shirink-0">
+            <div
+              id="phone-tada"
+              class="d-flex align-items-center justify-content-center me-4"
+            >
+              <a
+                href="index.html"
+                class="position-relative animated tada infinite"
+              >
+                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                <div class="position-absolute" style="top: -7px; left: 20px">
+                  <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                </div>
+              </a>
+            </div>
+            <div class="d-flex flex-column pe-4 border-end">
+              <span class="text-secondary"> Telp : +6288 1342 8890</span>
+            </div>
+            <div class="d-flex align-items-center justify-content-center ms-4">
+              <a href="index.html"
+                ><i class="bi bi-search text-white fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0">
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="First slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="1"
+            aria-label="Second slide"
+          ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              src="img/image 1.jfif"
+              class="img-fluid"
+              width="8500"
+              alt="First slide"
+            />
+            <div class="carousel-caption">
+              <div class="container carousel-content">
+                <h7 class="text-secondary h4 animated fadeInUp">Liburan Ke </h7>
+                <h1 class="text-white display-1 mb-4 animated fadeInRight">
+                  PANTAI BANTUL
+                </h1>
+                <p class="mb-4 text-white fs-5 animated fadeInDown">
+                  Pantai Bantul dan Keindahannya 
+                </p>
+                <a href="index.html" class="me-2"
+                  ><button
+                    type="button"
+                    class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft"
+                  >
+                    Info
+                  </button></a
+                >
+                <a href="index.html" class="ms-2"
+                  ><button
+                    type="button"
+                    class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight"
+                  >
+                    Kontak
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/image 2.jfif"
+              class="img-fluid"
+              width="2000"
+              alt="Second slide"
+            />
+            <div class="carousel-caption">
+              <div class="container carousel-content">
+                <h7 class="text-secondary h4 animated fadeInUp"
+                </h7>
+                <h1 class="text-white display-1 mb-4 animated fadeInLeft">
+                  PANTAI BANTUL
+                </h1>
+                <p class="mb-4 text-white fs-5 animated fadeInDown">
+                  Pantai Bantul adalah pantai yang berada di sisi selatan Provinsi Daerah Istimewa Yogyakarta
+                </p>
+                <a href="index.html" class="me-2"
+                  ><button
+                    type="button"
+                    class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft"
+                  >
+                    Kontak
+                  </button></a
+                >
+                <a href="index.html" class="ms-2"
+                  ><button
+                    type="button"
+                    class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight"
+                  >
+                    Info
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 my-5">
+      <div class="container pt-5">
+        <div class="row g-5">
+          <div
+            class="col-lg-5 col-md-6 col-sm-12 wow fadeIn"
+            data-wow-delay=".3s"
+          >
+            <div class="h-100 position-relative">
+              <img
+                src="img/image 4.jfif"
+                class="img-fluid w-80 rounded"
+                alt=""
+                style="margin-bottom: 5%"
+                width="500"
+              />
+            </div>
+          </div>
+          <div
+            class="col-lg-7 col-md-6 col-sm-12 wow fadeIn"
+            data-wow-delay=".5s"
+          >
+            <h1 class="text-primary" id="tentang">Tentang</h1>
+            <h5 class="mb-4">Eksplore Pantai Bantul</h5>
+            <p>
+              Selamat datang di web resmi kami yang menginformasikan 
+              mengenai pantai yang ada di Kabupaten Bantul yang indah dan asri
+            </p>
+            <p class="mb-4">
+              JANGAN RAGU UNTUK MENGEKSPLORE KEINDAHAN PANTAI
+              DI KABUPATEN BANTUL
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid services py-5 mb-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto pb-5 wow fadeIn"
+          data-wow-delay=".3s"
+          style="max-width: 600px"
+        >
+          <h1 class="text-primary" id="peta">Peta Wisata</h1>
+        </div>
+        <div class="row g-5 services-inner">
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+            <div class="services-item bg-light">
+              <div class="p-4 text-center services-content">
+                <div class="services-content-icon">
+                  <img
+                    src="img/parangtritis.jfif"
+                    class="img-fluid w-80 rounded"
+                    alt=""
+                    style="margin-bottom: 5%"
+                  />
+                  <h4 class="mb-3">Pantai Parangtritis</h4>
+                  <p class="mb-4">
+                  </p>
+                  <a
+                    href="https://maps.app.goo.gl/S6YQkYNLH9yfjuaTA"
+                    class="btn btn-secondary text-white px-5 py-3 rounded-pill"
+                    >Klik Disini</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+            <div class="services-item bg-light">
+              <div class="p-4 text-center services-content">
+                <div class="services-content-icon">
+                  <img
+                    src="img/cemoro sewu.jfif"
+                    class="img-fluid w-80 rounded"
+                    alt=""
+                    style="margin-bottom: 5%"
+                  />
+                  <h4 class="mb-3">Pantai Cemara Sewu</h4>
+                  <p class="mb-4">
+                  
+                  </p>
+                  <a
+                    href="https://maps.app.goo.gl/wZDJheEdfPcPynB97"
+                    class="btn btn-secondary text-white px-5 py-3 rounded-pill"
+                    >Klik Disini</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+            <div class="services-item bg-light">
+              <div class="p-4 text-center services-content">
+                <div class="services-content-icon">
+                  <img
+                    src="img/parangkusumo.jfif"
+                    class="img-fluid w-80 rounded"
+                    alt=""
+                    style="margin-bottom: 5%"
+                  />
+                  <h4 class="mb-3">Parangkusumo</h4>
+                  <p class="mb-4">
+                  </p>
+                  <a
+                    href="https://maps.app.goo.gl/LwHkSKwNNVW8RKcs8"
+                    class="btn btn-secondary text-white px-5 py-3 rounded-pill"
+                    >Klik Disini</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Project Start -->
+    <div class="container-fluid project py-5 mb-5">
+      <div class="container"
+        <div
+          class="text-center mx-auto pb-5 wow fadeIn"
+          data-wow-delay=".3s"
+          style="max-width: 600px"
+        >
+          <h5 class="text-primary"></h5>
+          <h1>Wisata Lainnya</h1>
+        </div>
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+            <div class="project-item">
+              <div class="project-img">
+                <img
+                  src="img/pantai depok.jfif"
+                  width=""
+                  class="img-fluid w-100 rounded"
+                  alt=""
+                />
+                <div class="project-content">
+                  <a
+                    href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.orami.co.id%2Fmagazine%2Fwisata-gunung-kidul%3Fpage%3Dall&psig=AOvVaw1E1A567Qpbk7Xx3TWrpjVs&ust=1722035023607000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiRpcGmw4cDFQAAAAAdAAAAABAE"
+                    class="text-center"
+                  >
+                    <h4 class="text-secondary">Pantai Depok</h4>
+                    <p class="m-0 text-white"></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+            <div class="project-item">
+              <div class="project-img">
+                <img
+                  src="img/baros.jfif"
+                  class="img-fluid w-100 rounded"
+                  alt=""
+                />
+                <div class="project-content">
+                  <a
+                    href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.orami.co.id%2Fmagazine%2Fwisata-gunung-kidul%3Fpage%3Dall&psig=AOvVaw1E1A567Qpbk7Xx3TWrpjVs&ust=1722035023607000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiRpcGmw4cDFQAAAAAdAAAAABAE"
+                    class="text-center"
+                  >
+                    <h4 class="text-secondary">Pantai Baros</h4>
+                    <p class="m-0 text-white"></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+            <div class="project-item">
+              <div class="project-img">
+                <img
+                  src="img/pandansari.jfif"
+                  class="img-fluid w-100 rounded"
+                  alt=""
+                />
+                <div class="project-content">
+                  <a
+                    href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.orami.co.id%2Fmagazine%2Fwisata-gunung-kidul%3Fpage%3Dall&psig=AOvVaw1E1A567Qpbk7Xx3TWrpjVs&ust=1722035023607000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiRpcGmw4cDFQAAAAAdAAAAABAE"
+                    class="text-center"
+                  >
+                    <h4 class="text-secondary">Pantai Pandansari</h4>
+                    <p class="m-0 text-white"></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+            <div class="project-item">
+              <div class="project-img">
+                <img
+                  src="img/samas.jfif"
+                  class="img-fluid w-100 rounded"
+                  alt=""
+                />
+                <div class="project-content">
+                  <a
+                    href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.orami.co.id%2Fmagazine%2Fwisata-gunung-kidul%3Fpage%3Dall&psig=AOvVaw1E1A567Qpbk7Xx3TWrpjVs&ust=1722035023607000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiRpcGmw4cDFQAAAAAdAAAAABAE"
+                    class="text-center"
+                  >
+                    <h4 class="text-secondary">Pantai Samas</h4>
+                    <p class="m-0 text-white"></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+            <div class="project-item">
+              <div class="project-img">
+                <img
+                  src="img/goa cemara.jfif"
+                  class="img-fluid w-100 rounded"
+                  alt=""
+                />
+                <div class="project-content">
+                  <a
+                    href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.orami.co.id%2Fmagazine%2Fwisata-gunung-kidul%3Fpage%3Dall&psig=AOvVaw1E1A567Qpbk7Xx3TWrpjVs&ust=1722035023607000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiRpcGmw4cDFQAAAAAdAAAAABAE"
+                    class="text-center"
+                  >
+                    <h4 class="text-secondary">Pantai Goa Cemara</h4>
+                    <p class="m-0 text-white"></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+            <div class="project-item">
+              <div class="project-img">
+                <img
+                  src="img/kuwaru.jfif"
+                  class="img-fluid w-100 rounded"
+                  alt=""
+                />
+                <div class="project-content">
+                  <a
+                    href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.orami.co.id%2Fmagazine%2Fwisata-gunung-kidul%3Fpage%3Dall&psig=AOvVaw1E1A567Qpbk7Xx3TWrpjVs&ust=1722035023607000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiRpcGmw4cDFQAAAAAdAAAAABAE"
+                    class="text-center"
+                  >
+                    <h4 class="text-secondary">Pantai Kuwaru</h4>
+                    <p class="m-0 text-white"></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5 mb-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto pb-5 wow fadeIn"
+          data-wow-delay=".3s"
+          style="max-width: 600px"
+        >
+          <h1 class="text-primary" id="kontak">Hubungi Kami</h1>
+          <p class="mb-2">
+            Kami dapat di hubungi secara online dan offline
+            <a href="https://htmlcodex.com/contact-form"></a>
+          </p>
+        </div>
+        <div class="contact-detail position-relative p-5">
+          <div class="row g-5 mb-5 justify-content-center">
+            <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
+              <div class="d-flex bg-light p-3 rounded">
+                <div
+                  class="flex-shrink-0 btn-square bg-secondary rounded-circle"
+                  style="width: 64px; height: 64px"
+                >
+                  <i class="fas fa-map-marker-alt text-white"></i>
+                </div>
+                <div class="ms-3">
+                  <h4 class="text-primary">Alamat</h4>
+                  <a
+                    href="https://maps.app.goo.gl/bMH8iuocnnozBqiz6"
+                    target="_blank"
+                    class="h5"
+                    >Kecamatan Pleret, Kabupaten Bantul</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
+              <div class="d-flex bg-light p-3 rounded">
+                <div
+                  class="flex-shrink-0 btn-square bg-secondary rounded-circle"
+                  style="width: 64px; height: 64px"
+                >
+                  <i class="fa fa-phone text-white"></i>
+                </div>
+                <div class="ms-3">
+                  <h4 class="text-primary">Telpon</h4>
+                  <a class="h5" href="tel:+0123456789" target="_blank"
+                    >+6288 1342 8890
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
+              <div class="d-flex bg-light p-3 rounded">
+                <div
+                  class="flex-shrink-0 btn-square bg-secondary rounded-circle"
+                  style="width: 64px; height: 64px"
+                >
+                  <i class="fa fa-envelope text-white"></i>
+                </div>
+                <div class="ms-3">
+                  <h4 class="text-primary">Email</h4>
+                  <a class="h5" href="mailto:info@example.com" target="_blank"
+                    >pantaibantul@email.com</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+      <div class="container pt-5 pb-4">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <a href="index.html">
+              <h1 class="text-white fw-bold d-block">
+                Pantai<span class="text-secondary">Bantul</span>
+              </h1>
+            </a>
+            <p class="mt-4 text-light">
+              Terima kasih telah mengunjungi web kami
+            </p>
+            <div class="d-flex hightech-link">
+              <a
+                href="index.html"
+                class="btn-light nav-fill btn btn-square rounded-circle me-2"
+                ><i class="fab fa-facebook-f text-primary"></i
+              ></a>
+              <a
+                href="index.html"
+                class="btn-light nav-fill btn btn-square rounded-circle me-2"
+                ><i class="fab fa-twitter text-primary"></i
+              ></a>
+              <a
+                href="index.html"
+                class="btn-light nav-fill btn btn-square rounded-circle me-2"
+                ><i class="fab fa-instagram text-primary"></i
+              ></a>
+              <a
+                href="index.html"
+                class="btn-light nav-fill btn btn-square rounded-circle me-0"
+                ><i class="fab fa-linkedin-in text-primary"></i
+              ></a>
+            </div>
+          </div>
+          
+    
+          <div class="col-lg-3 col-md-6">
+            <a href="#kontak" class="h3 text-secondary">Contact Us</a>
+            <div class="text-white mt-4 d-flex flex-column contact-link">
+              <a
+                href="#kontak"
+                class="pb-3 text-light border-bottom border-primary"
+                ><i class="fas fa-map-marker-alt text-secondary me-2"></i>
+                Kecamatan Pleret, Kabupaten Bantul</a
+              >
+              <a
+                href="#kontak"
+                class="py-3 text-light border-bottom border-primary"
+                ><i class="fas fa-phone-alt text-secondary me-2"></i> +6288 1342 8890</a
+              >
+              <a
+                href="#kontak"
+                class="py-3 text-light border-bottom border-primary"
+                ><i class="fas fa-envelope text-secondary me-2"></i>
+                pantaibantul@email.com</a
+            </div>
+          </div>
+        </div>
+        <hr class="text-light mt-5 mb-4" />
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a
+      href="index.html"
+      class="btn btn-secondary btn-square rounded-circle back-to-top"
+      ><i class="fa fa-arrow-up text-white"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
